@@ -1,0 +1,20 @@
+1：初始化项目react-native init helloWorld
+2：运行项目cd C:\Users\Admin\mdjr_n  然后react-native run-android
+
+
+解决问题npm unstall babel-preset-react-native npm install --save-dev babel-preset-react-native@2.1.0
+
+      
+3: 添加assets包底下的文件
+   react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+
+4：重启服务  npm start
+
+5：开启开发者菜单  adb shell input keyevent 82
+
+6：查看log  react-native log-android
+
+7：降级npm install --save react-native@0.55.4
+
+
+

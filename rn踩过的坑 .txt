@@ -1,0 +1,13 @@
+1：在使用SectionList的时候：
+⚠️VirtualizedList: missing keys for items, make sure to specify a key property on each item or provide a custom keyExtractor.
+解决方案：
+_extraUniqueKey(item ,index){ return "index"+index+item; } <SectionList keyExtractor = {this._extraUniqueKey} />
+
+
+
+2：在使用FlatList的时候：
+⚠️VirtualizedList: missing keys for items, make sure to specify a key property on each item or provide a custom keyExtractor.
+解决方案：
+_extraUniqueKey(item ,index){ return "index"+index+item; } < FlatList keyExtractor = {this._extraUniqueKey} />
+
+2

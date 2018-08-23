@@ -1,0 +1,21 @@
+﻿git 
+
+常见错误链接 http://192.168.1.147:3000/zhanghongdong/MDJR_Android.git
+
+1：cd到你的本地项目根目录下，执行git命令
+   git init
+2：将项目的所有文件添加到仓库中
+   git add .
+3：将add的文件commit到仓库
+   git commit -m "注释语句"
+4：将本地的仓库关联到github上
+   git remote add origin http://192.168.1.147:3000/zhanghongdong/MDJR_Android.git
+5：上传github之前，要先pull一下，执行如下命令
+   git pull origin master
+6：上传代码到github远程仓库
+   git push -u origin master
+
+
+
+
+https://github.com/2271115220/WaterRippleView
